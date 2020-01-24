@@ -1,0 +1,5 @@
+services:
+  dm.twig_extension:
+    class: Drupal\dm\DmTwigExtension
+    tags:
+      - { name: twig.extension }
