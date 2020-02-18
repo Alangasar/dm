@@ -11,6 +11,10 @@ dm($node);
 #Print $node dump to system watchdog
 wdm($node);
 
+function wdm($object, $type = 'wdm'){
+    \Drupal::logger($type)->notice('<pre><code>' . print_r($object, TRUE) . '</code></pre>' );
+}
+
 ``` 
 
 ### Install
