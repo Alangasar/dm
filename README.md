@@ -1,4 +1,5 @@
-#Drupal 8 Wrapper for Symfony var-dumper
+#Drupal 8 Wrapper for Symfony var-dumper  
+
 ###Example
 ```php
 <?php
@@ -11,7 +12,7 @@ dm($node);
 wdm($node);
 
 ``` 
-dm($object) and wdm($object)
+
 ### Install
 
 Add to repositories in composer.json:
