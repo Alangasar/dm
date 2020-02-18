@@ -1,7 +1,7 @@
 {
   "name": "alangasar/dm",
   "description": "Symfony var-dumper wrapper for Drupal 8",
-  "type": "drupal-custom-module",
+  "type": "drupal-module",
   "homepage": "https://github.com/alangasar/dm",
   "authors": [
     {
@@ -10,6 +10,5 @@
   ],
   "require": {
     "symfony/var-dumper": "~2.7|^3|^4"
-
   }
 }

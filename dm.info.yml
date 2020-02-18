@@ -2,3 +2,5 @@ name: dm
 type: module
 description: Wrapper for Symfony var-dumper
 core: 8.x
+
+version: '8.x-1.2'

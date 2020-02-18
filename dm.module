@@ -29,3 +29,13 @@ function dm($input, $name = NULL) {
   $output = FilteredMarkup::create($output);
   \Drupal::messenger()->addMessage($output);
 }
+
+/**
+ * Write object to system watchdog
+ *
+ * @param $object
+ * @param string $type
+ */
+function wdm($object, $type = 'wdm'){
+    \Drupal::logger($type)->notice('<pre><code>' . print_r($object, TRUE) . '</code></pre>' );
+}
