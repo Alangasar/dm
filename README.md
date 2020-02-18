@@ -17,6 +17,10 @@ function wdm($object, $type = 'wdm'){
 
 ``` 
 
+Or in twig file:
+```twig
+{{ dm(node) }}
+```
 ### Install
 
 Add to repositories in composer.json:
