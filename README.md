@@ -1,6 +1,6 @@
-#Drupal 8 Wrapper for Symfony var-dumper  
+# Drupal 8 Wrapper for Symfony var-dumper
 
-###Example
+### Example
 ```php
 <?php
 $node = Node::load(1);
