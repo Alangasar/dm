@@ -23,15 +23,6 @@ Or in twig file:
 ```
 ### Install
 
-Add to repositories in composer.json:
-
-```json
-{
-    "type": "git",
-    "url": "https://github.com/alangasar/dm.git"
-}
-```
-After 
 ```
 composer require alangasar/dm
 ```
