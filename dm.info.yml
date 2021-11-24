@@ -1,6 +1,6 @@
 name: dm
 type: module
 description: Wrapper for Symfony var-dumper
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 
-version: '8.x-1.3'
+version: '1.4'
