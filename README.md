@@ -1,4 +1,4 @@
-# Drupal 8 Wrapper for Symfony var-dumper
+# Drupal 8, 9, 10 Wrapper for Symfony var-dumper
 
 ### Examples
 ```php
