@@ -9,7 +9,4 @@
       "name": "alangasar"
     }
   ],
-  "require": {
-    "symfony/var-dumper": "~2.7|^3|^4"
-  }
 }
